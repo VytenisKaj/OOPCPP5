@@ -31,12 +31,12 @@ namespace MyCar{
 
             // Checkers
 
-            static bool checkColor(const std::string& color);
-            static bool checkPlate(const std::string& plate);
+            static bool checkColor(const string& color);
+            static bool checkPlate(const string& plate);
             static bool checkEnginePower(unsigned int enginePower);
             static bool checkWeight(unsigned int weight);
             static bool checkManufactureYear(unsigned int manufactureYear);
-            static void checkInit(const Car &object, const std::string& file, int line);
+            static void checkInit(const Car &object, const string& file, int line);
 
 
     };
