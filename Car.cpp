@@ -25,7 +25,7 @@ namespace MyCar{
 
         private:
 
-            static const std::string possibleColors[COLOR_AMOUNT];
+            static const string possibleColors[COLOR_AMOUNT];
 
         public:
 
